@@ -1,0 +1,22 @@
+.content {
+	font-size: 1.4rem;
+	padding-right: 15px;
+
+	&__about {
+		text-indent: 3rem;
+		text-align: justify;
+		text-justify: inter-word;
+		padding-right: 10px;
+	}
+
+	&__title {
+		font-size: 1em;
+		font-weight: bold;
+		margin: 0;
+	}
+
+	.brick {
+		margin-left: 0;
+		padding-bottom: 10px;
+	}
+}

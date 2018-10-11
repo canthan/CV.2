@@ -1,0 +1,35 @@
+$common-size: 1.4rem;
+
+span {
+	font-size: $common-size;
+}
+
+div[class^='section'] {
+	margin-left: 10px;
+	span {
+		display: block;
+	}
+	i {
+		margin-right: 5px;
+	}
+}
+
+[class^='skill'] {
+	font-size: $common-size;
+}
+
+.skill__list {
+	padding: 0;
+	list-style: none;
+
+	i {
+		padding-right: 5px;
+	}
+}
+
+.skill__title {
+	text-transform: uppercase;
+	text-decoration: underline;
+	font-weight: bold;
+	margin: 0;
+}

@@ -1,0 +1,1 @@
+export const API_BASE_URL = 'http://react-cdp-api.herokuapp.com/movies';

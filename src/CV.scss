@@ -1,0 +1,50 @@
+@import '~bootstrap/scss/bootstrap';
+@import 'styles/colors.scss';
+@import 'styles/settings.scss';
+
+.cv {
+	width: 825px;
+	height: 1167px;
+	margin: 0 auto;
+	border: 1px solid white;
+	display: grid;
+	grid-template-columns: $skills_width auto;
+	grid-template-rows: $header_height auto 8%;
+	grid-template-areas:
+		'photo header'
+		'skills content'
+		'footer footer';
+
+	.footer {
+		grid-area: footer;
+	}
+
+	section {
+		padding: 0 10px;
+	}
+	.no-padding {
+		padding: 0;
+	}
+}
+
+.skills {
+	margin: 0 30px;
+	background-color: $blue_5;
+	z-index: 6;
+	height: 100%;
+}
+
+.header {
+	margin: $header_margin 0;
+	background-color: $blue_12;
+}
+
+.header-bg {
+	position: absolute;
+	top: $header_margin + 1px;
+	display: block;
+	background-color: $blue_12;
+	z-index: 5;
+	width: calc(825px * 0.35);
+	height: calc(0.2 * 1167px - #{$header_margin} * 2);
+}

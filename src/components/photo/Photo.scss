@@ -1,0 +1,17 @@
+@import '../../styles/colors.scss';
+@import '../../styles/settings.scss';
+
+.image-wrapper {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.image-photo {
+	border-radius: 50%;
+	box-shadow: 0 0 0 2px black, 0 0 0 8px white;
+	z-index: 100;
+	height: 160px;
+}

@@ -1,0 +1,14 @@
+@import '../../styles/colors.scss';
+
+.brick__title {
+	font-size: 2rem;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+}
+
+.brick {
+	background-color: $blue_13;
+	height: 25px;
+	margin: 10px 10px;
+}
