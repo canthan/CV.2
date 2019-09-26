@@ -1,9 +1,8 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 
-import CV from './CV';
-import { Print } from './CV';
+import App from './App';
 
 const rootEl = document.getElementById('root');
 
-ReactDOM.render(<CV />, rootEl);
+ReactDOM.render(<App />, rootEl);

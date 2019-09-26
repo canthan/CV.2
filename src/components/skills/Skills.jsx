@@ -70,12 +70,12 @@ export default class Skills extends React.Component {
 							NodeJS
 						</li>
 						<li>
-							<i className="fas fa-angle-double-right" />
+							<i className="fas fa-server" />
 							Express, Koa
 						</li>
 						<li>
-							<i className="fas fa-angle-double-right" />
-							MongoDB, PostgreSQL
+							<i className="fas fa-database" />
+							MongoDB
 						</li>
 					</ul>
 					<p className="skill__title">Testing</p>
@@ -114,6 +114,10 @@ export default class Skills extends React.Component {
 						<li>
 							<i className="fas fa-angle-double-right" />
 							Npm, Yarn
+						</li>
+						<li>
+							<i className="fas fa-angle-double-right" />
+							Rally, Jenkins
 						</li>
 						<li>
 							<i className="fas fa-angle-double-right" />

@@ -13,10 +13,10 @@ export default class Content extends React.Component {
 					<p className="content__about">
 						I graduated Mechatronics obtaining Master of Engineering degree.
 						During course of studies I have learnt solid basics of programming.
-						After studies sfor four years I was working in international
-						engineering company as control systems engineer. For last year I
+						After studies for four years I was working in international
+						engineering company as control systems engineer. For last 2 years I
 						have been working as JavaScript developer taking part in development
-						of both frontend and backend part of applications.
+						of both frontend (Angular, React) and backend part of applications.
 					</p>
 					<Brick title="Education" />
 					<h1 className="content__title">
@@ -37,15 +37,11 @@ export default class Content extends React.Component {
 						09.2017 - still - EPAM Systems - Junior/Regular JavaScript Developer
 					</h1>
 					<ul className="content__list">
-						<li>
-							Taking part in development of both frontend and backend parts of
-							applications (Angular/React, NodeJS)
-						</li>
-						<li>
-							Following code standards, writing good quality code covered with
-							unit tests
-						</li>
-						<li>Work in international agile teams for foreign clients</li>
+						<li>Taking part in development of both frontend (Angular, React + Redux) and backend (NodeJS) parts of applications</li>
+						<li>Following code standards, SOLID, DRY, KISS and YAGNI principles. Writing good quality code covered with unit tests</li>
+						<li>Working in international scrum teams for foreign clients</li>
+						<li>Working closely with Product Owners to clarify business requirements and figure out best implementation approaches</li>
+						<li>Working with backend developers and QA team during development on the project</li>
 					</ul>
 					<h1 className="content__title">
 						03.2013 - 08.2017 - FLUOR S.A. - associate engineer, control systems
@@ -65,25 +61,9 @@ export default class Content extends React.Component {
 							Work in international company with highly developed quality system
 						</li>
 					</ul>
-					<h1 className="content__title">
-						09.2011 - Ośrodek Badawczo – Rozwojowy Urządzeń Mechanicznych
-						„OBRUM” sp. z o. o.
-					</h1>
-					<ul className="content__list">
-						<li>Programming HMI panels (Siemens), 3D modeling</li>
-					</ul>
-					<h1 className="content__title">
-						08.2010 - ENERGO-MOC WZORCOWNIA, sp. z o.o.
-					</h1>
-					<ul className="content__list">
-						<li>
-							Taking part in creating database application for electric meters
-						</li>
-					</ul>
 					<Brick title="Hobbies" />
 					<p>
-						Programming, sport climbing, alpinism, hiking, martial arts, skiing,
-						homebrewing
+						Sport climbing, alpinism, hiking, skiing, homebrewing, cooking, programming
 					</p>
 				</div>
 			</React.Fragment>
